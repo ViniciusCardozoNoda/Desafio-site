@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: droid;
+    src: url(droid.otf)format("opentype") ;
+}
+
+body {
+    margin: 8px;
+    background-color: white;
+}
+
+main.main1 {
+    background-attachment: fixed;
+    border: 10px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+h1.h1 {
+    background-color: #E04616;
+    color: white;
+    border: 10px solid #E04616;
+    margin-top: -8px;
+    margin-right: -8px;
+    margin-left: -8px;
+    margin-bottom: 8px;
+    text-align: center;
+    font-family: droid;
+}
+
+a > :hover {
+    color: brown;
+    text-shadow: 0 0 4px;
+    font-size: 3em;
+    text-decoration: none;
+}
+
+a.a1 {
+    background-color: #E04616;
+    color: white;
+    border: 10px solid #E04616;
+    border-left: 10px;
+    margin-left: -8px;
+    padding-right: 100%;
+    font-weight: bold;
+    text-align: left;
+    text-shadow: 3px 3px 3px brown;
+}
+
+p.p1 {
+    background-color: #E04616;
+    color: white;
+    border: 10px solid #E04616;
+    margin-top: -8px;
+    margin-right: -8px;
+    margin-left: -8px;
+    margin-bottom: 8px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif,droid;
+}
+
+h3.h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+div.div2 {
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+h3.h3a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
